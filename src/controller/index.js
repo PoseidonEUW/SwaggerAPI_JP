@@ -1,4 +1,3 @@
-const { VirtualType } = require('mongoose');
 
 const getModel = (modelName) => {
     // Récupère le modèle approprié en fonction du paramètre modelName
@@ -33,9 +32,10 @@ const getModel = (modelName) => {
                 const lastPk = lastItem ? lastItem.pk : 0;
                 const currentDate = new Date().toISOString();
                 var lowercaseModelName = null
-                // Reasons for this switch:
-                // 1. The model name is not always the same as the collection name
-                // 2. The model name is not always capitalized
+                // Les raisons de ce changement sont les suivantes :
+                // 1. le nom du modèle n'est pas toujours le même que celui de la collection
+                // 2. le nom du modèle n'est pas toujours en majuscules
+                // 3. J'ai créé cette condition parce que le nom du document est "vehicle" et non "vehicule".
                 if(modelName == 'Vehicule'){
                     lowercaseModelName = 'vehicle';
                 }

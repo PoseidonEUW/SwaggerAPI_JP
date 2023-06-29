@@ -1,8 +1,5 @@
 {
   "openapi": "3.0.0",
-  "x-stoplight": {
-    "id": "319cbbd1932d6"
-  },
   "info": {
     "title": "StarWars API | JP",
     "version": "1.0.0"
@@ -62,13 +59,13 @@
               "schema": {
                 "type": "object",
                 "example": {
-                  "name": "Din Djarin",
+                  "name": "John Doe",
                   "gender": "male",
-                  "skin_color": "fair",
-                  "hair_color": "brown",
-                  "height": "184",
-                  "eye_color": "black",
-                  "mass": "80",
+                  "skin_color": "black",
+                  "hair_color": "black",
+                  "height": "200",
+                  "eye_color": "white",
+                  "mass": "120",
                   "homeworld": 12,
                   "birth_year": "unknown"
                 }
@@ -198,13 +195,13 @@
               "schema": {
                 "type": "object",
                 "example": {
-                  "title": "Force Awaken",
-                  "episode_id": 7,
+                  "title": "A New Hope",
+                  "episode_id": 5,
                   "starships": [
+                    4,
+                    6,
+                    1,
                     2,
-                    3,
-                    5,
-                    9,
                     10,
                     11,
                     12,
@@ -221,7 +218,7 @@
                     2,
                     3
                   ],
-                  "producer": "Gary Kurtz, Rick McCallum",
+                  "producer": "Rick McCallum",
                   "director": "George Lucas",
                   "release_date": "1977-05-25T00:00:00.000Z",
                   "opening_crawl": "It is a period of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle, Rebel\r\nspies managed to steal secret\r\nplans to the Empire's\r\nultimate weapon, the DEATH\r\nSTAR, an armored space\r\nstation with enough power\r\nto destroy an entire planet.\r\n\r\nPursued by the Empire's\r\nsinister agents, Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen plans that can save her\r\npeople and restore\r\nfreedom to the galaxy....",
@@ -302,7 +299,7 @@
               "schema": {
                 "type": "object",
                 "example": {
-                  "title": "Star Wars 1: A New Hope",
+                  "title": "Star Wars 2: Attack of the Clones",
                   "starships": [
                     31,
                     32,
@@ -388,9 +385,9 @@
               "schema": {
                 "type": "object",
                 "example": {
-                  "climate": "humid",
+                  "climate": "wet",
                   "surface_water": "1",
-                  "name": "Terre",
+                  "name": "Terre Terre",
                   "diameter": "10465",
                   "rotation_period": "23",
                   "terrain": "desert",
@@ -447,7 +444,7 @@
               "schema": {
                 "type": "object",
                 "example": {
-                  "population": "200000"
+                  "population": "900000"
                 }
               }
             }

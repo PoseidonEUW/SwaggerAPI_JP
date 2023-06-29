@@ -1,3 +1,4 @@
+// NE FONCTIONNE PAS
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 

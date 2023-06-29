@@ -1,3 +1,4 @@
+// Importation of modules
 const express = require('express');
 const mongoose = require('mongoose');
 const swaggerUi = require('swagger-ui-express');
@@ -15,6 +16,7 @@ const app = express();
 const port = 9000;
 
 // Connection to MongoDB
+// Must be changed to connect to the database
 mongoose.connect('mongodb://localhost:27017/starwars', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -30,7 +32,7 @@ db.once('open', () => {
 // Middleware to parse JSON
 app.use(express.json());
 
-// // Middleware auth
+// // Middleware auth don't work for the moment
 // const authMiddleware = require('./middleware/auth');
 // app.use(authMiddleware);
 
