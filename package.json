@@ -1,6 +1,18 @@
 {
+  "name": "swappi_jessy",
+  "author":"Jessy Provenzal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "express": "^4.18.2",
-    "mongoose": "^7.0.2"
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.0.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
   }
 }
